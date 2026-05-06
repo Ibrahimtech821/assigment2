@@ -1,0 +1,14 @@
+//to copy file from the local to container (before start mangosh)
+docker cp mds.json mongo:/tmp/mds.json
+
+// Import JSON file into MongoDB
+docker exec -it mongo mongoimport --jsonArray --db moviesDB --collection moviesColl --file /assign/mds.json
+
+// make name as index(warning: it will not be unique identifer we need to add .unique)
+db.moviesColl.createIndex({ name: 1 })
+
+// find a movie when name as index 
+db.moviesColl.find({ name: 'Breaking the Taboo' })
+
+//Bonus : find the average rating per category
+db.moviesColl.aggregate([{$match:{imdb_rating:{$ne:""}}},{$addFields:{numeric_rating:{$toDouble:{$arrayElemAt:[{$split:["$imdb_rating","/"]},0]}}}},{$group:{_id:"$type",average_rate:{$avg:"$numeric_rating"}}},{$sort:{average_rate:-1}}])

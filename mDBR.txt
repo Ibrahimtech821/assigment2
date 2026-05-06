@@ -1,0 +1,47 @@
+// first query:
+ {
+    _id: ObjectId('69fb7aba2bc58ea107b81fd0'),
+    link: 'https://www.amazon.com/gp/video/detail/amzn1.dv.gti.e6aa6a3c-35b2-3814-b9cb-87c0d1391e14?tag=reelgood060d-20&autoplay=1',
+    name: 'Breaking the Taboo',
+    description: "Narrated by Morgan Freeman, this groundbreaking new documentary uncovers the UN sanctioned war on drugs, charting its origins and its devastating impact on countries like the USA, Colombia and Russia. Featuring prominent statesmen including Presidents Clinton and Carter, the film follows The Global Commission on Drug Policy on a mission to break the political taboo and expose the biggest failure of global policy in the last 50 yearsBreaking the Taboo featuring Fernando Henrique Cardoso and Bill Clinton is streaming with subscription on XiveTV (Via Prime Video), and available for rent or purchase on iTunes. It's a documentary movie with a high IMDb audience rating of 7.6 (1,003 votes).",
+    released_at: '2011-06-03',
+    genre: 'Documentary',
+    poster: 'https://img.reelgood.com/content/movie/8141ade0-8f03-4f39-87ed-795012c145d2/poster-780.jpg',
+    streaming_on: 'Prime Video ',
+    country: 'Brazil',
+    number_of_seasons: '',
+    type: 'Movie',
+    content_rating: '13+ (PG-13)',
+    imdb_rating: '7.6/10',
+    cast_and_crew: "[{'name': 'Fernando Grostein Andrade', 'description': 'director'}, {'name': 'Fernando Henrique Cardoso', 'description': 'actor'}, {'name': 'Bill Clinton', 'description': 'actor'}, {'name': 'Jimmy Carter', 'description': 'actor'}, {'name': 'Dráuzio Varella', 'description': 'actor'}, {'name': 'Paulo Coelho', 'description': 'actor'}, {'name': 'Morgan Freeman', 'description': 'actor'}]",
+    uniq_id: 'cf7bcabe-32a7-568e-b993-742bd261b4df',
+    scraped_at: '02/07/2022 20:45:25'
+  },
+  {
+    _id: ObjectId('69fb7b78ed197114722aae92'),
+    link: 'https://www.amazon.com/gp/video/detail/amzn1.dv.gti.e6aa6a3c-35b2-3814-b9cb-87c0d1391e14?tag=reelgood060d-20&autoplay=1',
+    name: 'Breaking the Taboo',
+    description: "Narrated by Morgan Freeman, this groundbreaking new documentary uncovers the UN sanctioned war on drugs, charting its origins and its devastating impact on countries like the USA, Colombia and Russia. Featuring prominent statesmen including Presidents Clinton and Carter, the film follows The Global Commission on Drug Policy on a mission to break the political taboo and expose the biggest failure of global policy in the last 50 yearsBreaking the Taboo featuring Fernando Henrique Cardoso and Bill Clinton is streaming with subscription on XiveTV (Via Prime Video), and available for rent or purchase on iTunes. It's a documentary movie with a high IMDb audience rating of 7.6 (1,003 votes).",
+    released_at: '2011-06-03',
+    genre: 'Documentary',
+    poster: 'https://img.reelgood.com/content/movie/8141ade0-8f03-4f39-87ed-795012c145d2/poster-780.jpg',
+    streaming_on: 'Prime Video ',
+    country: 'Brazil',
+    number_of_seasons: '',
+    type: 'Movie',
+    content_rating: '13+ (PG-13)',
+    imdb_rating: '7.6/10',
+    cast_and_crew: "[{'name': 'Fernando Grostein Andrade', 'description': 'director'}, {'name': 'Fernando Henrique Cardoso', 'description': 'actor'}, {'name': 'Bill Clinton', 'description': 'actor'}, {'name': 'Jimmy Carter', 'description': 'actor'}, {'name': 'Dráuzio Varella', 'description': 'actor'}, {'name': 'Paulo Coelho', 'description': 'actor'}, {'name': 'Morgan Freeman', 'description': 'actor'}]",
+    uniq_id: 'cf7bcabe-32a7-568e-b993-742bd261b4df',
+    scraped_at: '02/07/2022 20:45:25'
+  }
+]
+--------------------------------------------------------------------------------------------------------------------------------
+
+// bonus query:
+
+[
+  { _id: 'TV Show', average_rate: 7.003472222222222 },
+  { _id: 'Movie', average_rate: 6.081355932203389 }
+]
+
