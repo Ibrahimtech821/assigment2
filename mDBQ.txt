@@ -11,7 +11,7 @@ db.moviesColl.createIndex({ name: 1 })
 db.moviesColl.find({ name: 'Breaking the Taboo' })
 
 //Logical Operations Query (Drama or Documentary)
-db.moviesColl.find({ $or: [ { genre: /Drama/ }, { genre: /Documentary/ } ] })
+db.moviesColl.find({type:"Movie",$or:[{genre:"Drama"},{genre:"Documentary"}]})
 
 //Bonus : find the average rating per category
 db.moviesColl.aggregate([{$match:{imdb_rating:{$ne:""}}},{$addFields:{numeric_rating:{$toDouble:{$arrayElemAt:[{$split:["$imdb_rating","/"]},0]}}}},{$group:{_id:"$type",average_rate:{$avg:"$numeric_rating"}}},{$sort:{average_rate:-1}}])
