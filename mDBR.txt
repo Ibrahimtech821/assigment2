@@ -411,3 +411,47 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //third query output:
 [ { _id: 'Movie', count: 2464 }, { _id: 'TV Show', count: 338 } ]
+--------------------------------------------------------------------------------------------------------------------------------------
+//fourth query output:
+[
+  {
+    name: 'Liquor House Comedy presents Brown Sugar Night',
+    released_at: '2020-04-24',
+    genre: 'Documentary',
+    streaming_on: 'Free Services, Prime Video',
+    country: '',
+    imdb_rating: '9.7/10'
+  },
+  {
+    name: 'Liquor House Comedy presents Brown Sugar Night',
+    released_at: '2020-04-24',
+    genre: 'Documentary',
+    streaming_on: 'Free Services, Prime Video',
+    country: '',
+    imdb_rating: '9.7/10'
+  },
+  {
+    name: 'Return to El Salvador',
+    released_at: '2010-01-01',
+    genre: 'Documentary',
+    streaming_on: 'Prime Video ',
+    country: '',
+    imdb_rating: '9.3/10'
+  },
+  {
+    name: 'Messiah',
+    released_at: '2016-04-23',
+    genre: 'Drama, Horror',
+    streaming_on: 'Prime Video ',
+    country: '',
+    imdb_rating: '9.3/10'
+  },
+  {
+    name: 'Messiah',
+    released_at: '2016-04-23',
+    genre: 'Drama, Horror',
+    streaming_on: 'Prime Video ',
+    country: '',
+    imdb_rating: '9.3/10'
+  }
+]
